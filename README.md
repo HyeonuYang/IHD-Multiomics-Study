@@ -7,9 +7,7 @@ This repository contains the complete analytical pipeline for investigating the 
 
 > **Note:** This code is associated with the paper *"Gut Microbiome and Metabolome Signatures Across the Ischemic Heart Disease Severity Spectrum: A Multi-Omics Study"* (Under Review).
 > 
-> **Co-first Authors:** Chihoon Park & Hyun-Woo Yang
-> 
-> **Corresponding Authors:** Han-Na Kim, Si-Hyuck Kang
+> **Co-first Authors:** Chihoon Park & Hyun-Woo Yang<br>**Corresponding Authors:** Han-Na Kim, Si-Hyuck Kang
 
 ## 📂 Repository Structure & Workflow
 
