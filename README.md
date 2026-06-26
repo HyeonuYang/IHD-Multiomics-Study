@@ -8,6 +8,7 @@ This repository contains the complete analytical pipeline for investigating the 
 > **Note:** This code is associated with the paper *"Gut Microbiome and Metabolome Signatures Across the Ischemic Heart Disease Severity Spectrum: A Multi-Omics Study"* (Under Review).
 > 
 > **Co-first Authors:** Chihoon Park & Hyun-Woo Yang
+> **Corresponding Authors:** Han-Na Kim, Si-Hyuck Kang
 
 ## 📂 Repository Structure & Workflow
 
@@ -31,7 +32,7 @@ This section covers blood metabolome quality control, ordinal differential analy
   * `01_data_for_circular_heatmap.ipynb`: Aggregation of multi-omics significant features (Metabolites, Taxa, GMM, MetaCyc) and calculation of group-wise mean abundances.
   * `02_circular_heatmap.R`: Construction of an advanced multi-track circular heatmap using `circlize` and `ComplexHeatmap` to visualize severity-associated features.
 * **`04_Correlation/`**:
-  * `01_residual_correlation.R`: Computation of stage-residualized Spearman correlations to identify intrinsic interactions between gut microbiome features and circulating metabolites.
+  * `01_raw_and_residual_correlation.R`: Computation of stage-residualized Spearman correlations to identify intrinsic interactions between gut microbiome features and circulating metabolites.
 * **`05_Ordinal_model/`**:
   * `01_calc_MetRS.ipynb`: Derivation of the Metabolomic Risk Score (MetRS) using a weighted sum of significant metabolites and Z-score normalization.
   * `02_OrdinalModel.ipynb`: Development of cumulative Multi-omics Risk Prediction Models utilizing Ordinal Logistic Regression (`statsmodels`). Evaluates Clinical Risk Factors (CRFs), PRS, MRS, and MetRS via Stratified K-Fold CV and Bootstrap AUC.
